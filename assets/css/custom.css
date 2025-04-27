@@ -1,0 +1,6 @@
+.business_line_img{position: absolute;
+left: 0%;
+transform: translateX(-50%);
+z-index: 10;
+margin-top: 6rem;
+}

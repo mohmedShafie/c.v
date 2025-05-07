@@ -1,6 +1,18 @@
-.business_line_img{position: absolute;
-left: 0%;
-transform: translateX(-50%);
-z-index: 10;
-margin-top: 6rem;
+.business_line_img {
+    position: relative;
+    left: 0;
+    transform: none;
+    z-index: 10;
+    margin: 3rem auto;
+    max-width: 100%;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .business_line_img {
+        position: absolute;
+        left: 0%;
+        transform: translateX(-50%);
+        margin-top: 6rem;
+    }
 }
